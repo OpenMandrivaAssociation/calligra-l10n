@@ -1,8 +1,8 @@
 %define name calligra-l10n
-%define version 2.3.84
-%define release %mkrel 1
+%define version 2.4.1
+%define release 1
 # Supported l10n language
-%define langlist ca cs da de el en_GB es et fr it kk nb nds nl pl pt pt_BR ru sv uk zh_TW
+%define langlist ca cs da de el en_GB es et fi fr hu it kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
 
 # Language descriptions
 %define language_ca ca
@@ -21,6 +21,8 @@
 %define langname_es Spanish
 %define language_et et
 %define langname_et Estonian
+%define language_fi fi
+%define langname_fi Finnish
 %define language_fr fr
 %define langname_fr French
 %define language_gl gl
@@ -49,6 +51,8 @@
 %define langname_pt_PT Portuguese
 %define language_ru ru
 %define langname_ru Russian
+%define language_sk sk
+%define langname_sk Slovakian
 %define language_sv sv
 %define langname_sv Swedish
 %define language_tr tr
@@ -80,7 +84,7 @@ Source0: %{name}-template.in
 %{expand:%(\
 	i=1; \
 	for lang in %langlist; do\
-		echo "%%{expand:Source$i: http://fr2.rpmfind.net/linux/KDE/unstable/calligra-%%{version}/calligra-l10n/%%{name}-%%{language_$lang}-%%{version}.tar.bz2}";\
+		echo "%%{expand:Source$i: http://fr2.rpmfind.net/linux/KDE/stable/calligra-%%{version}/calligra-l10n/%%{name}-%%{language_$lang}-%%{version}.tar.bz2}";\
 		i=$[i+1];\
 	done\
 	)
