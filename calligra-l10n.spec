@@ -1,5 +1,5 @@
 %define name calligra-l10n
-%define version 2.4.1
+%define version 2.4.2
 %define release 1
 # Supported l10n language
 %define langlist ca cs da de el en_GB es et fi fr hu it kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
@@ -80,9 +80,10 @@ Group: System/Internationalization
 Url: http://www.calligra-suite.org/
 # localisation package template
 Source0: %{name}-template.in
+Source1: %{name}.rpmlintrc
 # l10n sources
 %{expand:%(\
-	i=1; \
+	i=2; \
 	for lang in %langlist; do\
 		echo "%%{expand:Source$i: http://fr2.rpmfind.net/linux/KDE/stable/calligra-%%{version}/calligra-l10n/%%{name}-%%{language_$lang}-%%{version}.tar.bz2}";\
 		i=$[i+1];\
@@ -130,8 +131,3 @@ for lang in %langlist; do
 		%makeinstall_std -C build;
 	popd;
 done
-
-%clean
-rm -rf %buildroot
-
-
