@@ -2,7 +2,7 @@
 %define version 2.5.1
 %define release 1
 # Supported l10n language
-%define langlist ca cs da de el en_GB es et fi fr gl hu it ja kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
+%define langlist ca da de el en_GB es et fi fr gl hu it ja kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
 
 # Language descriptions
 %define language_ca ca
