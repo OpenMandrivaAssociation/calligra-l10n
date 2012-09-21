@@ -1,5 +1,5 @@
 %define name calligra-l10n
-%define version 2.5.1
+%define version 2.5.2
 %define release 1
 # Supported l10n language
 %define langlist ca el en_GB es et fi fr gl hu it ja kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
