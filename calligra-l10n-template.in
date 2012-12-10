@@ -1,0 +1,111 @@
+%package -n calligra-l10n-__LANG__
+Summary: %{langname___LANG__} language files for Calligra
+License: GPLv2+
+Group: System/Internationalization
+Url: http://www.calligra-suite.org/
+Requires: locales-%{locale___LANG__}
+Requires: calligra-core
+Provides: calligra-l10n
+Obsoletes: koffice-l10n-__LANG__
+BuildArch: noarch
+
+%description -n calligra-l10n-__LANG__
+%{summary}.
+
+%files -n calligra-l10n-__LANG__
+%defattr(-,root,root,-)
+%{_kde_datadir}/locale/__LANG__/*
+
+%if __LANG__ ==  ca
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+#if __LANG__ ==  da
+#%{_kde_datadir}/doc/HTML/__LANG__/*
+#endif
+
+%if __LANG__ ==  de
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  es
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  et
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  fr
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  gl
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  it
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  nl
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+#if __LANG__ ==  pt
+#%{_kde_datadir}/doc/HTML/__LANG__/*
+#endif
+
+%if __LANG__ ==  pt_BR
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  ru
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%{_kde_appsdir}/*/autocorrect/ru_RU.xml
+%endif
+
+%if __LANG__ ==  sv
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
+
+%if __LANG__ ==  uk
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%{_kde_appsdir}/*/autocorrect/uk_UA.xml
+%endif
+
+%if __LANG__ ==  nb
+%{_kde_appsdir}/*/autocorrect/nb.xml
+%endif
+
+%if __LANG__ ==  ca
+%{_kde_appsdir}/*/autocorrect/ca.xml
+%endif
+
+%if __LANG__ ==  cs
+%{_kde_appsdir}/*/autocorrect/cs.xml
+%endif
+
+%if __LANG__ ==  de
+%{_kde_appsdir}/*/autocorrect/de_DE.xml
+%endif
+
+%if __LANG__ ==  es
+%{_kde_appsdir}/*/autocorrect/es.xml
+%endif
+
+%if __LANG__ ==  fr
+%{_kde_appsdir}/*/autocorrect/fr.xml
+%endif
+
+%if __LANG__ ==  hu
+%{_kde_appsdir}/*/autocorrect/hu.xml
+%endif
+
+%if __LANG__ ==  it
+%{_kde_appsdir}/*/autocorrect/it_IT.xml
+%endif
+
+%if __LANG__ ==  nds
+%{_kde_appsdir}/*/autocorrect/nds.xml
+%endif
