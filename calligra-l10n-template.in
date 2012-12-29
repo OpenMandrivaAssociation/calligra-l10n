@@ -40,10 +40,6 @@ BuildArch: noarch
 %{_kde_datadir}/doc/HTML/__LANG__/*
 %endif
 
-%if __LANG__ ==  gl
-%{_kde_datadir}/doc/HTML/__LANG__/*
-%endif
-
 %if __LANG__ ==  it
 %{_kde_datadir}/doc/HTML/__LANG__/*
 %endif
@@ -52,9 +48,9 @@ BuildArch: noarch
 %{_kde_datadir}/doc/HTML/__LANG__/*
 %endif
 
-#if __LANG__ ==  pt
-#%{_kde_datadir}/doc/HTML/__LANG__/*
-#endif
+%if __LANG__ ==  pt
+%{_kde_datadir}/doc/HTML/__LANG__/*
+%endif
 
 %if __LANG__ ==  pt_BR
 %{_kde_datadir}/doc/HTML/__LANG__/*
