@@ -1,10 +1,13 @@
-%define name calligra-l10n
-%define version 2.5.4
-%define release 1
 # Supported l10n language
-%define langlist ca da de el en_GB es et fi fr gl hu it ja kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
+%define langlist bs ca cs da de el es et fi fr gl hu it kk nb nds nl pl pt pt_BR ru sl sk sv tr uk zh_CN zh_TW
+
+# Languages that were once supported, but aren't supported by the current release anymore
+# (old packages have to be obsoleted so we don't create dependency problems)
+%define temporarily_unsupported en_GB ja
 
 # Language descriptions
+%define language_bs bs
+%define langname_bs Bosnian
 %define language_ca ca
 %define langname_ca Catalan
 %define language_cs cs
@@ -51,6 +54,8 @@
 %define langname_pt_PT Portuguese
 %define language_ru ru
 %define langname_ru Russian
+%define language_sl sl
+%define langname_sl Slovenian
 %define language_sk sk
 %define langname_sk Slovakian
 %define language_sv sv
@@ -72,9 +77,9 @@
 %{expand:%(for lang in %langlist; do echo "%%define locale_$lang `echo $lang | cut -d _ -f 1` "; done)}
 
 Summary: Language files for Calligra (virtual package)
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name: calligra-l10n
+Version: 2.7.2
+Release: 1
 License: GPLv2+
 Group: System/Internationalization
 Url: http://www.calligra-suite.org/
@@ -85,7 +90,7 @@ Source1: %{name}.rpmlintrc
 %{expand:%(\
 	i=2; \
 	for lang in %langlist; do\
-		echo "%%{expand:Source$i: http://download.kde.org/stable/calligra-%%{version}/%%{name}/%%{name}-%%{language_$lang}-%%{version}.tar.bz2}";\
+		echo "%%{expand:Source$i: http://download.kde.org/stable/calligra-%%{version}/%%{name}/%%{name}-%%{language_$lang}-%%{version}.tar.xz}";\
 		i=$[i+1];\
 	done\
 	)
@@ -94,6 +99,11 @@ BuildRequires: gettext >= 0.15
 BuildRequires: kdelibs4-devel
 BuildArch: noarch
 Obsoletes: koffice-l10n
+%{expand:%(\
+	for i in %temporarily_unsupported; do \
+		echo "Obsoletes: %name-$i < %EVRD"; \
+	done)
+}
 
 %description
 Language files for Calligra.
@@ -111,7 +121,7 @@ Language files for Calligra.
 %setup -T -n %{name}-%{version} -c
 
 for lang in %langlist; do\
-  tar xf %{_sourcedir}/%{name}-$lang-%{version}.tar.bz2;
+  tar xf %{_sourcedir}/%{name}-$lang-%{version}.tar.xz;
 done
 
 %build

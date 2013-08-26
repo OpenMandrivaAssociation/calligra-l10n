@@ -1,1 +1,3 @@
 addFilter("E: use-of-RPM_SOURCE_DIR")
+addFilter("E: dangling-symlink")
+addFilter("E: obsolete-not-provided")
