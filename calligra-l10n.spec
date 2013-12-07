@@ -79,7 +79,7 @@
 Summary: Language files for Calligra (virtual package)
 Name: calligra-l10n
 Version: 2.7.2
-Release: 4
+Release: 5
 License: GPLv2+
 Group: System/Internationalization
 Url: http://www.calligra-suite.org/
