@@ -3,7 +3,7 @@
 
 # Languages that were once supported, but aren't supported by the current release anymore
 # (old packages have to be obsoleted so we don't create dependency problems)
-%define temporarily_unsupported en_GB ja tr
+%define temporarily_unsupported en_GB tr sl
 
 # Language descriptions
 %define language_bs bs
@@ -78,8 +78,8 @@
 
 Summary: Language files for Calligra (virtual package)
 Name: calligra-l10n
-Version: 2.8.0
-Release: 4
+Version: 2.8.6
+Release: 1
 License: GPLv2+
 Group: System/Internationalization
 Url: http://www.calligra-suite.org/
@@ -133,8 +133,6 @@ for lang in %langlist; do\
 done
 
 %install
-rm -rf %{buildroot}
-
 
 for lang in %langlist; do
 	pushd %{name}-$lang-%{version};
