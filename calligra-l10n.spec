@@ -1,9 +1,9 @@
 # Supported l10n language
-%define langlist bs ca cs da de el en_GB es et fi fr gl hu it ja kk nb nds nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
+%define langlist bs ca cs da de el en_GB es et fi fr gl hu it ja kk nb nl pl pt pt_BR ru sk sv uk zh_CN zh_TW
 
 # Languages that were once supported, but aren't supported by the current release anymore
 # (old packages have to be obsoleted so we don't create dependency problems)
-%define temporarily_unsupported tr sl
+%define temporarily_unsupported tr sl nds
 
 # Language descriptions
 %define language_bs bs
@@ -78,7 +78,7 @@
 
 Summary: Language files for Calligra (virtual package)
 Name: calligra-l10n
-Version: 2.8.7
+Version: 2.9.4
 Release: 1
 License: GPLv2+
 Group: System/Internationalization
