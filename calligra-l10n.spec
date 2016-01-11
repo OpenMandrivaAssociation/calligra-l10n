@@ -78,7 +78,7 @@
 
 Summary: Language files for Calligra (virtual package)
 Name: calligra-l10n
-Version: 2.9.7
+Version: 2.9.10
 Release: 1
 License: GPLv2+
 Group: System/Internationalization
