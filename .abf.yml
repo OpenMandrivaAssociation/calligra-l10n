@@ -1,84 +1,111 @@
 removed_sources:
   calligra-l10n-bs-2.8.7.tar.xz: 924cf5d36ae9e414c55889b988a4e41d952ae4fb
   calligra-l10n-bs-2.9.4.tar.xz: 74323658343497c6768b935af0435db715b5bb9e
+  calligra-l10n-bs-2.9.7.tar.xz: 545b6be10317b971bdbd4cb044408d00af8492cd
   calligra-l10n-ca-2.8.7.tar.xz: 7ce1f6d553257e35c0da1ea13a7c3ce637b6ce4b
   calligra-l10n-ca-2.9.4.tar.xz: 7db70653911aa0eb54e13c1d5de6b2ed46015267
+  calligra-l10n-ca-2.9.7.tar.xz: c9ff0d678bc1d57faa36d3609a9add1c46b96180
   calligra-l10n-cs-2.8.7.tar.xz: 0a8bafc65dfd1b7bd1f3cfc1a31437eb6bc11afd
   calligra-l10n-cs-2.9.4.tar.xz: beb3156a971ff64490accc3f9133f8252febe3b6
+  calligra-l10n-cs-2.9.7.tar.xz: e5154dc79dbe96a07e60650b27a0996e85e963cc
   calligra-l10n-da-2.8.7.tar.xz: 032991c9adfcde7ec7cf41eb7d7938dcbbe97fc0
   calligra-l10n-da-2.9.4.tar.xz: f1cbd11702ae3c615048eb779ed447c0371c97fc
+  calligra-l10n-da-2.9.7.tar.xz: 2a81a6be6b7106f065ab343c0de79a5917c20718
   calligra-l10n-de-2.8.7.tar.xz: 36c3dd039b9d8ae30269db7bb1d7f436e50af08f
   calligra-l10n-de-2.9.4.tar.xz: a4ca44620340e0321f06072a02117ebc329cf6c1
+  calligra-l10n-de-2.9.7.tar.xz: 35ec35e42ae4bd1c7fba5e5c805323770411c1a4
   calligra-l10n-el-2.8.7.tar.xz: 6c09a73f1dd58953178a6b6151dc5a0c5b9e5d97
   calligra-l10n-el-2.9.4.tar.xz: f22a875a4a196016663f3fd330116f46e84df794
+  calligra-l10n-el-2.9.7.tar.xz: 4ffdf8a0691ec9fa4476a6feacab625008b88ea1
   calligra-l10n-en_GB-2.8.7.tar.xz: f542fe37e330b74569af7da9caab4c359a188475
   calligra-l10n-en_GB-2.9.4.tar.xz: ad5ef7368f2bceffbab879b58502b7bc26d54798
+  calligra-l10n-en_GB-2.9.7.tar.xz: 2a6033add66036e0b57de6c1649875397c716aa3
   calligra-l10n-es-2.8.7.tar.xz: 148abf3afdc09b514c5089205113f93e718406c1
   calligra-l10n-es-2.9.4.tar.xz: 1fdf2d7fe9dfc86d4aa44e1b0bcdac1702f8db14
+  calligra-l10n-es-2.9.7.tar.xz: 4698a4832bcd6148584b3f645946d8be15ca5dc6
   calligra-l10n-et-2.8.7.tar.xz: 0ff6b3840178e2d1bc1f7a6b040a8b21859997a5
   calligra-l10n-et-2.9.4.tar.xz: c96715c66c48b5da1812fa8f6685a6f89ad8751f
+  calligra-l10n-et-2.9.7.tar.xz: 0a87268f971c081087e7dd7b35588304ad997d60
   calligra-l10n-fi-2.8.7.tar.xz: 9234f1aba0a9d2e7abba35c508cc49605c8be202
   calligra-l10n-fi-2.9.4.tar.xz: 800169a0457c1aa1fe90b450d6fa046dbaa2b11b
+  calligra-l10n-fi-2.9.7.tar.xz: 6bc27b739756d7415121cd0c2b412c13437cc5c2
   calligra-l10n-fr-2.8.7.tar.xz: d39770fe3564561315bc117b81f475aeb440d5f8
   calligra-l10n-fr-2.9.4.tar.xz: 9d60284c52b0d79cc257428967ec5c992cd04e8b
+  calligra-l10n-fr-2.9.7.tar.xz: a8cc391dd1dda33b284e12b99327fcd0abb3c39b
   calligra-l10n-gl-2.8.7.tar.xz: 41aad5a1f33c2769619bcde231bd4386b8aca503
   calligra-l10n-gl-2.9.4.tar.xz: 31ad94348f7496b48c9d979a17fe5f722d040c0c
+  calligra-l10n-gl-2.9.7.tar.xz: d52e23d7aac23316099ef0f068ee6d74490e0cf4
   calligra-l10n-hu-2.8.7.tar.xz: ace8f6b5ec02f0894dd05b10284ed34888a7c17f
   calligra-l10n-hu-2.9.4.tar.xz: 72995b1ff68ab3280d612bdf78eb72d3213167bb
+  calligra-l10n-hu-2.9.7.tar.xz: 01a3e46ee6bbef43317adca8997daee16ffccf1d
   calligra-l10n-it-2.8.7.tar.xz: 9e568d97c3a5536a54b84e3dcd98a0b954bbfec1
   calligra-l10n-it-2.9.4.tar.xz: 4c3ec85950a44201797f62897c62cf9d64871ace
+  calligra-l10n-it-2.9.7.tar.xz: 7fec65f860fa4084d3968571bd6f5acc006cd517
   calligra-l10n-ja-2.8.7.tar.xz: 3084b45259f32163e54dbf46820aaa2800a496ba
   calligra-l10n-ja-2.9.4.tar.xz: 86cc49a2e87fab7443606bacd45def9da9852553
+  calligra-l10n-ja-2.9.7.tar.xz: 155ce8001b8575e95c95ef6f0c583b80d2814ccd
   calligra-l10n-kk-2.8.7.tar.xz: 9705e6476370ad4366af9ff5983da6b16c131297
   calligra-l10n-kk-2.9.4.tar.xz: d6f90e1bdc7b2bf639db33a6be7265095a5b5baf
+  calligra-l10n-kk-2.9.7.tar.xz: 93c18a3388ee86cf7930a47ad62582144e2a9c5c
   calligra-l10n-nb-2.8.7.tar.xz: 27660b13ed52e7b3b1616ab9d09e10291118922c
   calligra-l10n-nb-2.9.4.tar.xz: f15dce5fb6eb3279697c41f2e8191de3c3fc4f47
+  calligra-l10n-nb-2.9.7.tar.xz: 1823ed604a95c125bfce2a27243152c6b181b20f
   calligra-l10n-nl-2.8.7.tar.xz: 1078f340d5b840b9ecbfe9aaf58efbc832fe86ce
   calligra-l10n-nl-2.9.4.tar.xz: 5f0029a8664d4c2737d3da9c67a0b80de9202b26
+  calligra-l10n-nl-2.9.7.tar.xz: 0e90b44f7f66534754692ad41f0006bbefc8a41d
   calligra-l10n-pl-2.8.7.tar.xz: accc59c60331f6ff78bee661219cc13a45de8f6b
   calligra-l10n-pl-2.9.4.tar.xz: 16caaedb7974598e08d607e3b4897ad6e6017d02
+  calligra-l10n-pl-2.9.7.tar.xz: c7e5089751cf4394a81732256d9412920e436696
   calligra-l10n-pt-2.8.7.tar.xz: 4cd8d56110f2cf8f857cb49eb54ddcead184a484
   calligra-l10n-pt-2.9.4.tar.xz: 9ffecdf11eaf0c61f5950838c88327e6a7dd2479
+  calligra-l10n-pt-2.9.7.tar.xz: 9b74b44893d319839a6e072863903d6026355fdd
   calligra-l10n-pt_BR-2.8.7.tar.xz: d9e98651acb146072fb5932f249244a946027391
   calligra-l10n-pt_BR-2.9.4.tar.xz: e3edbc1362c147d87f1440fabe3c41ffc8ed774b
+  calligra-l10n-pt_BR-2.9.7.tar.xz: b23f6cf1c7a8739a8a890161b32915004bc5d641
   calligra-l10n-ru-2.8.7.tar.xz: fc4dd61e95cf8f58fea86c55573fea05be6e65c6
   calligra-l10n-ru-2.9.4.tar.xz: 33494e11e946e739fecdfbe35cc39b6ed4cdb7cb
+  calligra-l10n-ru-2.9.7.tar.xz: d26b4d2cf722b295032107bb476a70c700cde59b
   calligra-l10n-sk-2.8.7.tar.xz: 6e60a28955b2c3f2d7eaa82ad21e1e605af27e85
   calligra-l10n-sk-2.9.4.tar.xz: 6e85ca8c2078a371caac4d8c040e88683cf0954f
+  calligra-l10n-sk-2.9.7.tar.xz: 69d08dd92412353fefc80069711b57ffcbcbbad1
   calligra-l10n-sv-2.8.7.tar.xz: bb955a5dbf1b77798bdc106ca1a3ec102dea27d4
   calligra-l10n-sv-2.9.4.tar.xz: f6ebcda2a3b03fa672115ca86d632832eba499d3
+  calligra-l10n-sv-2.9.7.tar.xz: 42f17eab4b59fe2cf34a45632f4af616c331527c
   calligra-l10n-uk-2.8.7.tar.xz: 4530fbb52d81458438d6f98bb81ecb850fa9fc10
   calligra-l10n-uk-2.9.4.tar.xz: a03a05bcac9e29c276dee9257ad711285a98730a
+  calligra-l10n-uk-2.9.7.tar.xz: 9aba6af949183d5b8f2d23f37168ad143132f1ca
   calligra-l10n-zh_CN-2.8.7.tar.xz: 93e31b8f5146a9f70710af5687d0c5befee32f8c
   calligra-l10n-zh_CN-2.9.4.tar.xz: 686b6287878a34ed37ec178bf92c729037b65157
+  calligra-l10n-zh_CN-2.9.7.tar.xz: 73fb53d79c2186b06633c7023fc402fd1aa199cb
   calligra-l10n-zh_TW-2.8.7.tar.xz: f220717947ea423ada7c2e4b0d090e44fbf5593b
   calligra-l10n-zh_TW-2.9.4.tar.xz: 4fad6e818eafdb03147492dae7ab11965c7ce925
-sources:
-  calligra-l10n-bs-2.9.7.tar.xz: 545b6be10317b971bdbd4cb044408d00af8492cd
-  calligra-l10n-ca-2.9.7.tar.xz: c9ff0d678bc1d57faa36d3609a9add1c46b96180
-  calligra-l10n-ca@valencia-2.8.7.tar.xz: c9a272c8781b1fcc3db9e35c2969d95278871e1b
-  calligra-l10n-cs-2.9.7.tar.xz: e5154dc79dbe96a07e60650b27a0996e85e963cc
-  calligra-l10n-da-2.9.7.tar.xz: 2a81a6be6b7106f065ab343c0de79a5917c20718
-  calligra-l10n-de-2.9.7.tar.xz: 35ec35e42ae4bd1c7fba5e5c805323770411c1a4
-  calligra-l10n-el-2.9.7.tar.xz: 4ffdf8a0691ec9fa4476a6feacab625008b88ea1
-  calligra-l10n-en_GB-2.9.7.tar.xz: 2a6033add66036e0b57de6c1649875397c716aa3
-  calligra-l10n-es-2.9.7.tar.xz: 4698a4832bcd6148584b3f645946d8be15ca5dc6
-  calligra-l10n-et-2.9.7.tar.xz: 0a87268f971c081087e7dd7b35588304ad997d60
-  calligra-l10n-fi-2.9.7.tar.xz: 6bc27b739756d7415121cd0c2b412c13437cc5c2
-  calligra-l10n-fr-2.9.7.tar.xz: a8cc391dd1dda33b284e12b99327fcd0abb3c39b
-  calligra-l10n-gl-2.9.7.tar.xz: d52e23d7aac23316099ef0f068ee6d74490e0cf4
-  calligra-l10n-hu-2.9.7.tar.xz: 01a3e46ee6bbef43317adca8997daee16ffccf1d
-  calligra-l10n-it-2.9.7.tar.xz: 7fec65f860fa4084d3968571bd6f5acc006cd517
-  calligra-l10n-ja-2.9.7.tar.xz: 155ce8001b8575e95c95ef6f0c583b80d2814ccd
-  calligra-l10n-kk-2.9.7.tar.xz: 93c18a3388ee86cf7930a47ad62582144e2a9c5c
-  calligra-l10n-nb-2.9.7.tar.xz: 1823ed604a95c125bfce2a27243152c6b181b20f
-  calligra-l10n-nl-2.9.7.tar.xz: 0e90b44f7f66534754692ad41f0006bbefc8a41d
-  calligra-l10n-pl-2.9.7.tar.xz: c7e5089751cf4394a81732256d9412920e436696
-  calligra-l10n-pt-2.9.7.tar.xz: 9b74b44893d319839a6e072863903d6026355fdd
-  calligra-l10n-pt_BR-2.9.7.tar.xz: b23f6cf1c7a8739a8a890161b32915004bc5d641
-  calligra-l10n-ru-2.9.7.tar.xz: d26b4d2cf722b295032107bb476a70c700cde59b
-  calligra-l10n-sk-2.9.7.tar.xz: 69d08dd92412353fefc80069711b57ffcbcbbad1
-  calligra-l10n-sv-2.9.7.tar.xz: 42f17eab4b59fe2cf34a45632f4af616c331527c
-  calligra-l10n-uk-2.9.7.tar.xz: 9aba6af949183d5b8f2d23f37168ad143132f1ca
-  calligra-l10n-zh_CN-2.9.7.tar.xz: 73fb53d79c2186b06633c7023fc402fd1aa199cb
   calligra-l10n-zh_TW-2.9.7.tar.xz: 03ac7cdfec0f1b0864dac79639d205815efff9b2
+sources:
+  calligra-l10n-bs-2.9.10.tar.xz: fb76eb8a123976ce8dcf69e20325b0611e36a852
+  calligra-l10n-ca-2.9.10.tar.xz: 50aa6b0f638021e1de8f53c9063ce2ad5ee34e69
+  calligra-l10n-ca@valencia-2.8.7.tar.xz: c9a272c8781b1fcc3db9e35c2969d95278871e1b
+  calligra-l10n-cs-2.9.10.tar.xz: b680dc98f0228e044b6be2601b6d7173ba363db1
+  calligra-l10n-da-2.9.10.tar.xz: 820d0dabf65237797873b28ad90e4d3c7cd659b9
+  calligra-l10n-de-2.9.10.tar.xz: b97fa256e56b12e04f434b85d34c01f8836af760
+  calligra-l10n-el-2.9.10.tar.xz: ab35a81bbac39025d05455061554196bf54a869c
+  calligra-l10n-en_GB-2.9.10.tar.xz: 0002389f5d20b6fade581e410b587baa0efd8290
+  calligra-l10n-es-2.9.10.tar.xz: 0b712a673649d62c3c932e000173629def8d14f8
+  calligra-l10n-et-2.9.10.tar.xz: bc6cd9578aba2d46d8da500122956d41f9304948
+  calligra-l10n-fi-2.9.10.tar.xz: a36a405f360bce2c67856bb1a75ccc7d5719ae6c
+  calligra-l10n-fr-2.9.10.tar.xz: 4dc4cdcf1db8ab67ca03d37125cae60293f7ecaa
+  calligra-l10n-gl-2.9.10.tar.xz: 5fb3b89a51ce7ee971eda4527ad878432c0484d9
+  calligra-l10n-hu-2.9.10.tar.xz: 9e17d57a81ef1179757e49fde2992068133d38f7
+  calligra-l10n-it-2.9.10.tar.xz: 8750a051cfd84514a7430701008266fdab4e4e07
+  calligra-l10n-ja-2.9.10.tar.xz: e10b765fd2436cf1fe893000986cb5a563488c4c
+  calligra-l10n-kk-2.9.10.tar.xz: 13d46336d411d3915ddee7c15c3b861a1cf0391c
+  calligra-l10n-nb-2.9.10.tar.xz: d6bb40799793ef9fefcbdedcb26008a1b0c2c15d
+  calligra-l10n-nl-2.9.10.tar.xz: 1d333a4df51d0de238146c0aa68dd7abddd78f7d
+  calligra-l10n-pl-2.9.10.tar.xz: 4d58dbf354ac26cc0498cd957766efaa6eb813f5
+  calligra-l10n-pt-2.9.10.tar.xz: 7f94c0803bb2ab988a429a9da64bd1555b8e14dd
+  calligra-l10n-pt_BR-2.9.10.tar.xz: 17794e4251dd738dd166220e30611223b82869d6
+  calligra-l10n-ru-2.9.10.tar.xz: 4a7981b34c61c35d5bac7a365ca17b48982f57eb
+  calligra-l10n-sk-2.9.10.tar.xz: 5ea95efaa3b85a5729e8f99200e87beefc537422
+  calligra-l10n-sv-2.9.10.tar.xz: 4af923c654824866fb8b2bbada45902a1b356375
+  calligra-l10n-uk-2.9.10.tar.xz: 58b70c9a2281d0ebfde5a5fed9382a1c57bcd66b
+  calligra-l10n-zh_CN-2.9.10.tar.xz: 517f66dc2b1cbee847a9b3e72e522c6cc97f4cbd
+  calligra-l10n-zh_TW-2.9.10.tar.xz: 1d960a021b7bb8e39f0162cbab0bb389a0ab041d
