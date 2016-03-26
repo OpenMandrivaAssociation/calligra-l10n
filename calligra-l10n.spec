@@ -78,7 +78,7 @@
 
 Summary: Language files for Calligra (virtual package)
 Name: calligra-l10n
-Version: 2.9.10
+Version: 2.9.11
 Release: 0.1
 License: GPLv2+
 Group: System/Internationalization
@@ -127,7 +127,7 @@ done
 %build
 for lang in %langlist; do\
 	pushd %{name}-$lang-%{version};
-		%cmake_kde4;
+		%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6;
 		%make;
 	popd;
 done
