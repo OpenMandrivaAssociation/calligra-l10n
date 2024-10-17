@@ -82,7 +82,7 @@ Version: 2.9.11
 Release: 1
 License: GPLv2+
 Group: System/Internationalization
-Url: http://www.calligra-suite.org/
+Url: https://www.calligra-suite.org/
 # localisation package template
 Source0: %{name}-template.in
 Source1: %{name}.rpmlintrc
